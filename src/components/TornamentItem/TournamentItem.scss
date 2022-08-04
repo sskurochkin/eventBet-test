@@ -1,0 +1,100 @@
+.item{
+  background-color: #373352;
+  height: 78px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 9px 9px 9px 25px;
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  &:not(:last-child){
+    margin-bottom: 4px;
+  }
+
+  &__header{
+    display: flex;
+    margin-bottom: 9px;
+  }
+  &__name{
+    font-weight: 600;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 9px;
+  }
+  &__footer{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 10px;
+    img{
+      height: 12px;
+      width: 12px;
+      margin-right: 6px;
+    }
+  }
+
+  &__date{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-right: 8px;
+
+  }
+  &__players{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+  }
+  &__price{
+    display: flex;
+    align-items: center;
+  }
+  &__register{
+    height: 16px;
+    width: 78px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 16px;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    transform: rotate(-90deg);
+    background-color: #00BB40;
+    position: absolute;
+    left: -30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    &.false{
+      background-color: #5E5A79;
+    }
+  }
+
+}
+
+.header{
+
+&__pin{
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+  &__game{
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 2px;
+    height: 16px;
+    font-size: 8px;
+    text-transform: uppercase;
+
+  }
+
+}

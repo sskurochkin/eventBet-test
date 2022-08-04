@@ -1,9 +1,10 @@
 import './Spinner.scss'
+import spinner from './spiner.svg'
 
 const Spinner = () =>{
 	return(
-		<div>
-			Spinner
+		<div className='spinner'>
+			<img src={spinner} alt=""/>
 		</div>
 	)
 }
